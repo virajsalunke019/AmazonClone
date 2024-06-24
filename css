@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+  
+    border: border-box;
+
+}
+body{
+ background-color: #b1e8f2;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #010218;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    font-weight: 100px;
+    
+}
+
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    padding: 1px 8px 0px 6px;
+    Margin:1px;
+    height: 63px;
+    width: 90px;
+   
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/**box2**/
+.add-first{
+ color: #cccccc;
+ font-size: 0.85rem;
+ margin-left:15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left:3px;
+}
+
+.addicon{
+    display:flex;
+    align-items: center;
+}
+
+/**box3**/
+
+.nav-search{
+    display:flex;
+    justify-content:space-evenly ;
+    background: pink;
+    width:620px; 
+    height:40px;
+    border-radius: 4px;
+
+
+
+}
+
+.search-select{
+   background-color: #f3f3f3; 
+   width:50px;
+   text-align: center;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+   border:none;
+
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:none;
+    color: #000000;
+}
+
+.nav-search:hover{
+    border: 3.5px solid orange;
+}
+/**box4**/
+
+span{
+    font-size: 0.7rem;
+ 
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+ 
+}
+ /**box6**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height:40px;
+    background-color:#131c44;
+    display: flex;
+    color: white;
+    align-items: center;
+   
+    
+}
+.panel-all{
+    padding: 45px 50px;
+    margin-left: 15px;
+}
+
+.panel-ops p {
+    display: inline-block;
+    padding: 8px 9px;
+ 
+}
+
+.panel-ops{
+   
+    font-size:0.9rem;
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+}
+
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+
+/**hero section **/
+.hero-section{
+    background-image: url("hero-img-watch.jpg");
+    background-size: cover;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    color:black;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+    
+}
+
+.hero-msg a{
+    color:#007185;
+
+}
+
+/**shop section**/
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#cee4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust space between boxes */
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds gap between boxes */
+    padding: 20px;
+    justify-content: center; /* Center the boxes horizontally */
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 350px; /* Fixed width for each box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 10px; /* Adds gap between grid items */
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.grid-item p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.box h4{
+    color:#007185;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.flag-container {
+    display: flex;
+    align-items: center;
+}
+
+.india-flag {
+    height: 26px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 25px; /* Adjust spacing as needed */
+}
